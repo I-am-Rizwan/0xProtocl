@@ -1,0 +1,23 @@
+{
+  "name": "0x-v4-limit-order-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@0x/contract-addresses": "6.4.0",
+    "@0x/protocol-utils": "1.7.2",
+    "@0x/subproviders": "6.5.4",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
